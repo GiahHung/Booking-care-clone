@@ -1,0 +1,74 @@
+{
+  "homeHeader": {
+    "specialty": "Medical specialty",
+    "searchDoctor": "Find doctor by specialty",
+    "health-facility": "Health Facility",
+    "Choose-hospital": "Choose a hospital or clinic.",
+    "doctor": "Doctor",
+    "choose-doctor": "Choose a good doctor.",
+    "Check-up-package": "Check-up Package",
+    "health": "General health check-up",
+    "support": "Support",
+    "welcome": "Welcome"
+  },
+  "banner": {
+    "title1": "HEALTHCARE PLATFORM",
+    "title2": "COMPREHENSIVE HEALTH CARE",
+    "option1": "Specialist examination",
+    "option2": "Remote consultation",
+    "option3": "General check-up",
+    "option4": "Medical examination",
+    "option5": "Mental health",
+    "option6": "Dental check-up"
+  },
+
+  "menu": {
+    "system": {
+      "header": "System",
+      "system-administrator": {
+        "header": "System Administrator",
+        "user-manage": "User manage",
+        "user-redux": "User manage with REDUX"
+      },
+      "system-parameter": {
+        "header": "System-parameter"
+      }
+    },
+    "admin":{
+        "manage-user": "User",
+        "CRUD-user": "Manage user",
+        "CRUD-redux": "Manage user Redux",
+        "manage-doctor": "Manage doctor",
+        "manage-admin": "Manage admin",
+        "clinic": "Clinic",
+        "manage-clinic": "Manage clinic",
+        "specialty": "Specialty",
+        "manage-specialty": "Manage specialty",
+        "handbook": "Handbook",
+        "manage-handbook": "Manage handbook"
+    },
+    "doctor":{
+      "manage-schedule": "Manage doctor's schedule"
+    }
+  },
+
+  "user-manage": {
+    "add": "Add new user",
+    "email": "Email",
+    "password": "Password",
+    "first-name": "First name",
+    "last-name": "Last name",
+    "phone-number": "Phone number",
+    "address": "Address",
+    "gender": "Gender",
+    "role": "Role",
+    "position": "Position",
+    "image": "Avatar" ,
+    "save": "  Save" ,
+    "edit": "  Edit"  
+  },
+  "home-slider": {
+    "outstanding-doctor": "Prominent doctor",
+    "see-more": "See more"
+  }
+}

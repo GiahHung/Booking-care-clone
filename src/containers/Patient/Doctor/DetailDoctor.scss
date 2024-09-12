@@ -1,0 +1,45 @@
+.doctor-container {
+  // height: 150vh;
+  border-top: 1px solid rgb(0, 200, 255);
+
+  .intro-doctor {
+    height: 160px;
+    display: flex;
+    padding-top: 3px;
+    
+    margin: 0 150px;
+
+    .content-left {
+      width: 15%;
+
+      .image {
+        height: 130px;
+        width: 130px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin: 6px auto;
+        border: 1px solid black;
+        border-radius: 100%;
+      }
+    }
+
+    .content-right {
+      width: 85%;
+      padding-right: 400px;
+      .up {
+        padding-top: 7px;
+        font-size: 2rem;
+        font-weight: 500;
+      }
+      .down {
+        font-size: 15px;
+      }
+    }
+  }
+  .info-doctor{
+    border-top: 1px solid black;
+    padding: 20px 0 0 200px;
+    background-color: rgb(252, 251, 249);
+  }
+}

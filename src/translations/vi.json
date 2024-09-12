@@ -1,0 +1,74 @@
+{
+  "homeHeader": {
+    "specialty": "Chuyên Khoa",
+    "searchDoctor": "Tìm bác sĩ theo chuyên khoa",
+    "health-facility": "Cơ sở y tế",
+    "Choose-hospital": "Chọn bệnh viện phòng khám",
+    "doctor": "Bác sĩ",
+    "choose-doctor": "Chọn bác sĩ giỏi",
+    "Check-up-package": "Gói khám",
+    "health": "Khám sức khỏe tổng quát",
+    "support": "Hỗ Trợ",
+    "welcome": "Xin chào"
+  },
+  "banner": {
+    "title1": "NỀN TẢNG Y TẾ",
+    "title2": "CHĂM SÓC SỨC KHỎE TOÀN DIỆN",
+    "option1": "Khám chuyên khoa",
+    "option2": "Khám từ xa",
+    "option3": "Khám tổng quát",
+    "option4": "Xét nghiệm y học",
+    "option5": "Sức khỏe tinh thần",
+    "option6": "Khám nha khoa"
+  },
+
+  "menu": {
+    "system": {
+      "header": "Hệ thống",
+      "system-administrator": {
+        "header": "Quản trị hệ thống",
+        "user-manage": "Quản lý người sử dụng",
+        "user-redux": "Quản lý người dùng REDUX"
+      },
+      "system-parameter": {
+        "header": "Tham số hệ thống"
+      }
+    },
+    "admin":{
+        "manage-user": "Người dùng",
+        "CRUD-user": "Quản lý người dùng",
+        "CRUD-redux": "Quản lý người dùng Redux",
+        "manage-doctor": "Quản lý bác sĩ",
+        "manage-admin": "Quản lý admin",
+        "clinic": "phòng khám",
+        "manage-clinic": "Quản lý phòng khám",
+        "specialty": "chuyên khoa",
+        "manage-specialty": "Quản lý chuyên khoa",
+        "handbook": "Cẩm nang",
+        "manage-handbook": "Quản lý cẩm nang"
+    },
+    "doctor":{
+      "manage-schedule": "Quản lý kế hoạch khám bệnh"
+    }
+  },
+
+  "user-manage": {
+    "add": "Thêm mới người dùng",
+    "email": "Email",
+    "password": "Password",
+    "first-name": "Tên",
+    "last-name": "Họ",
+    "phone-number": "Số điện thoại",
+    "address": "Địa chỉ",
+    "gender": "Giới tính",
+    "role": "Vai trò",
+    "position": "Chức danh",
+    "image": "Ảnh đại diện" ,
+    "save": "  Lưu",
+    "edit": "  Thay đổi"
+  },
+  "home-slider": {
+    "outstanding-doctor": "Bác sĩ nổi bật",
+    "see-more": "Xem thêm"
+  }
+}

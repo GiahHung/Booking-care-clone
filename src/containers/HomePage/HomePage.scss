@@ -1,0 +1,220 @@
+.section-share {
+  height: 360px;
+  margin-top: 20px;
+  &.section-specialty {
+    background-color: #f0eaea;
+  }
+  &.section-medical-facility {
+  }
+  &.section-outStanding-doctor {
+    background: url("../../assets/OutstandingDoctor/140311-background5.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 480px;
+  }
+  &.section-about{
+    height: 500px;
+  }
+
+  .section-container {
+    margin: 0 50px;
+
+    .section-header {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 0 30px 20px;
+      .title-section {
+        font-size: 2.2rem;
+        font-weight: 600;
+        color: #494747;
+        &.section-outStanding-doctor {
+          color: #949090;
+        }
+      }
+      .btn-section {
+        background: rgb(102, 218, 177);
+        border: none;
+        outline: none;
+        margin: 5px 10px;
+        color: rgb(10, 112, 117);
+        padding: 0 10px;
+        width: 90px;
+        height: 40px;
+        border-radius: 5px;
+        &:hover {
+          color: black;
+          transition: 0.1s;
+        }
+      }
+    }
+
+    .img-customize {
+      height: 200px;
+
+      .section-img {
+        background-color: rgb(221, 219, 219);
+        margin-right: 10px;
+        border-radius: 10px;
+        padding: 10px 10px 0 10px;
+        img {
+          height: 180px;
+          width: 100%;
+          border-radius: 15px;
+        }
+
+        .section-content {
+          padding-top: 5px;
+          font-size: 18px;
+          color: black;
+          font-weight: 600;
+          text-align: center;
+          &.section-hand-book {
+            font-size: 15px;
+            font-weight: 500;
+          }
+        }
+        &.section-img-doctor {
+          background: transparent;
+          cursor: pointer;
+          .img {
+            height: 250px;
+            width: 250px;
+            border-radius: 100%;
+            margin: auto;
+            background-position: center;
+            background-size: cover;
+          }
+          .section-content {
+            padding-top: 5px;
+            font-size: 18px;
+            color: rgb(163, 161, 161);
+            font-weight: 600;
+            text-align: center;
+          }
+          .section-content-2 {
+            color: rgb(107, 104, 104);
+            text-align: center;
+            font-size: 18px;
+            font-weight: 400;
+            padding-top: 4px;
+          }
+        }
+        &.section-hand-book {
+          background: transparent;
+          img {
+            border: 1px solid black;
+          }
+        }
+      }
+    }
+  }
+}
+
+// override slick
+
+.slick-prev {
+  border: 1px solid red !important;
+  left: -10px !important;
+  z-index: 1000 !important;
+  height: 48px !important;
+  width: 44px !important;
+  background: white !important;
+  border: 2px solid #d7d7d7 !important;
+  border-radius: 10px !important;
+  &:hover {
+    background: #d7d7d7 !important;
+    transition: 0.2s !important;
+  }
+}
+.slick-prev::before {
+  font-family: FontAwesome !important;
+  color: #7e7a7a !important;
+}
+.slick-next {
+  border: 1px solid red !important;
+  right: 0px !important;
+  height: 48px !important;
+  width: 44px !important;
+  background: white !important;
+  border: 2px solid #d7d7d7 !important;
+  border-radius: 10px !important;
+  &:hover {
+    background: #d7d7d7 !important;
+    transition: 0.2s !important;
+  }
+}
+.slick-next::before {
+  font-family: FontAwesome !important;
+  color: #7e7a7a !important;
+}
+.slick-disabled{
+  display: none !important;
+}
+
+// FOOTER
+.footer-container{
+  background: rgb(128, 209, 241);
+  height: 170px;
+  .footer-content{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px 25px 0 25px;
+    .footer-content-2{
+      h1{
+        font-weight: 500;
+        color: rgb(104, 134, 134);
+      }
+      p{
+        text-align: center;
+      }
+    }
+  }
+  .footer-copy-right{
+    text-align: center;
+    color: rgb(3, 109, 109);
+    font-size: 15px;
+    margin-top: 10px;
+    span{
+      color: rgb(8, 143, 105);
+    }
+  }
+}
+
+.section-about{
+  margin: 30px 100px;
+  
+  .section-content{
+    .about-title{
+      font-size: 2.2rem;
+      font-weight: 600;
+      padding: 20px 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      hr{
+        color: rgb(8, 42, 42);
+        width: 50%;
+        height: 5px;
+        border-radius: 10px;
+      }
+    }
+    .about-content{
+      width: 100%;
+      display: flex;
+      .section-content-left{
+        width: 60%;
+      }
+      .section-content-right{
+        width: 40%;
+        text-align: center;
+        font-size: 17px;
+        color: #949090;
+        padding: 30px 5px 0 5px;
+      }
+    }
+   
+  }
+}

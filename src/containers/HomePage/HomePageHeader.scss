@@ -1,0 +1,196 @@
+.home-header-container {
+  width: 100%;
+  height: 70px;
+  padding: 2px 40px;
+  font-family: sans-serif;
+  position: sticky;
+  z-index: 1000;
+  background: white;
+  top: 0;
+
+  .home-header-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+    .left-content {
+      width: 25%;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+
+      .logo {
+        background: url("../../assets/bookingcare.png");
+        background-repeat: no-repeat;
+        width: 100px;
+        height: 50px;
+        background-position: center;
+        background-size: cover;
+        width: 50%;
+        height: 100%;
+        cursor: pointer;
+        background-size: 100%;
+      }
+
+      i {
+        font-size: 2rem;
+        color: gray;
+        cursor: pointer;
+      }
+    }
+    .middle-content {
+      width: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+
+      .child-content {
+        .sub-title {
+          font-weight: 400;
+          font-size: 12px;
+        }
+      }
+    }
+    .right-content {
+      width: 25%;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+
+      .support {
+        font-size: 15px;
+        font-weight: 600;
+        margin-right: 50px;
+        i {
+          font-size: 20px;
+          color: rgb(12, 117, 182);
+        }
+      }
+      .language {
+        display: flex;
+        justify-content: space-around;
+        gap: 3px;
+        font-size: 17px;
+        font-weight: 600;
+        cursor: pointer;
+
+        .flag-vn {
+          color: rgb(143, 139, 139);
+          &:hover {
+            color: black;
+          }
+          &.active {
+            color: rgb(235, 66, 66);
+          }
+        }
+        .flag-en {
+          color: rgb(143, 139, 139);
+          &:hover {
+            color: black;
+          }
+          &.active {
+            color: rgb(76, 76, 247);
+          }
+        }
+      }
+    }
+  }
+}
+
+.home-header-banner {
+  background: url(../../assets/brg2.webp);
+  height: 555px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  .content-up {
+    background-image: linear-gradient(
+      rgba(126, 126, 126, 0.25),
+      rgba(255, 255, 255, 0.1)
+    );
+    height: 65%;
+    .title1 {
+      color: white;
+      text-align: center;
+      font-size: 30px;
+      text-shadow: 1px 1px 1px #333;
+      margin-top: 50px;
+      margin-bottom: 5px;
+    }
+    .title2 {
+      color: white;
+      text-align: center;
+      font-size: 30px;
+      text-shadow: 1px 1px 1px #333;
+    }
+    .search {
+      width: fit-content;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #f3e035;
+      margin: 30px auto;
+      padding: 10px;
+      border-radius: 25px;
+      i {
+        margin: 0 5px;
+        font-size: 20px;
+      }
+      input {
+        height: 30px;
+        width: 380px;
+        font-size: 20px;
+        background: transparent;
+        border: none;
+        outline: none;
+      }
+    }
+  }
+  .content-down {
+    height: 35%;
+    padding-bottom: 15px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-image: linear-gradient(
+      rgba(255, 255, 255, 0.1),
+      rgba(255, 255, 255, 0.9),
+      rgba(255, 255, 255, 1)
+    );
+    .option {
+      display: flex;
+      justify-content: center;
+      gap: 70px;
+      margin-bottom: 0;
+      .option-child {
+        width: 100px;
+
+        .icon {
+          text-align: center;
+          background-color: rgb(253, 249, 249);
+          height: 40px;
+          width: 40px;
+          margin: 0 auto;
+          border: 1px solid rgb(131, 126, 126);
+          border-radius: 50%;
+          padding: 3px;
+          i {
+            font-size: 2rem;
+            color: rgb(52, 224, 247);
+          }
+        }
+        .text {
+          font-size: 17px;
+          font-weight: 500;
+          text-align: center;
+          cursor: pointer;
+          &:hover {
+            color: rgb(52, 224, 247);
+          }
+        }
+      }
+    }
+  }
+}

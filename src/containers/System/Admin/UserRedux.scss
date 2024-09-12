@@ -1,0 +1,83 @@
+.add-new-user{
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    color: rgb(9, 145, 199);
+}
+label{
+    font-weight: 600;
+}
+.upload-image{
+  
+    .image{
+        left: 15px;
+        .upload-btn{
+            text-align: center;
+            margin: 5px 0 0 40px;
+            cursor: pointer;
+            &:hover{
+                color: rgb(5, 201, 201);
+                transition: .2s;
+            }
+        }
+        .preview-img{
+            width: 150px;
+            height: 150px;
+            border-radius: 100%;
+            border: 1px solid black;
+
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    }
+}
+
+
+.btnSave{
+    position: relative;
+    button{
+        position: absolute;
+        right: 15px;
+        bottom: 0px;
+        margin: 3rem 0;
+        background-color: rgb(40, 201, 40);
+        color: white;
+        font-weight: 600;
+        padding: 10px 30px;
+        border: none;
+        border-radius: 10px;
+        i{
+            font-weight: 600;
+        }
+        &:hover{
+            color: black;
+            border: 1px solid black;
+            transition: .2s;
+        }
+    }
+    
+}
+.btnEdit{
+    position: relative;
+    button{
+        position: absolute;
+        right: 15px;
+        bottom: 0px;
+        margin: 3rem 0;
+        background-color: rgb(239, 207, 25);
+        color: white;
+        font-weight: 600;
+        padding: 10px 30px;
+        border: none;
+        border-radius: 10px;
+        i{
+            font-weight: 600;
+        }
+        &:hover{
+            color: black;
+            border: 1px solid black;
+            transition: .2s;
+        }
+    }
+}
